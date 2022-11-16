@@ -33,7 +33,7 @@ function Get-Cust-object()
 
             }
 
-            if ($obj -ne $null)
+            if ($null -ne $obj)
             {
             
             Write-Output "Value of the object is " $obj
